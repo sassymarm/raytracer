@@ -9,40 +9,14 @@ private:
 
 public:
 
-  void setX(double x)
-  {
-    this->x = x;
-  }
+  void setX(double x) { this->x = x; }
+  void setY(double y) { this->y = y; }
+  void setZ(double z) { this->z = z; }
 
-  void setY(double y)
-  {
-    this->y = y;
-  }
-
-  void setZ(double z)
-  {
-    this->z = z;
-  }
-
-  double getW()
-  {
-    return w;
-  }
-
-  double getX()
-  {
-    return x;
-  }
-
-  double getY()
-  {
-    return y;
-  }
-
-  double getZ()
-  {
-    return z;
-  }
+  double getW() { return w; }
+  double getX() { return x; }
+  double getY() { return y; }
+  double getZ() { return z; }
 
 
   Tuple() : x{ 0 }, y{ 0 }, z{ 0 }, w{ 0 }
